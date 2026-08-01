@@ -4,7 +4,7 @@ import streamlit as st
 from gtts import gTTS
 
 # 設定 Streamlit 網頁版面為寬螢幕
-st.set_page_config(page_title="N4核心單字大師機", layout="wide")
+st.set_page_config(page_title="N4核心單字大師", layout="wide")
 
 # 完整保留 15 類、每類精確 42 字，共 672 字的黃金資料庫，絕不刪減
 WORD_DATABASE = {
