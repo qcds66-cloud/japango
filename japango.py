@@ -693,7 +693,7 @@ if "is_playing" not in st.session_state:
     st.session_state.is_playing = False
 
 # ----------------- 主介面 -----------------
-st.title("📖 N4核心單字大師機 (網頁版)")
+st.title("📖 N4核心單字大師機")
 
 col_sel1, col_sel2 = st.columns([2, 1])
 
